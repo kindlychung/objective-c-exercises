@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2994FC197AF3F400B160FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2994FB197AF3F400B160FE /* Cocoa.framework */; };
+		BC299506197AF3F400B160FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC299504197AF3F400B160FE /* InfoPlist.strings */; };
+		BC299508197AF3F400B160FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC299507197AF3F400B160FE /* main.m */; };
+		BC29950C197AF3F400B160FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC29950A197AF3F400B160FE /* Credits.rtf */; };
+		BC29950F197AF3F400B160FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC29950E197AF3F400B160FE /* AppDelegate.m */; };
+		BC299512197AF3F400B160FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC299510197AF3F400B160FE /* MainMenu.xib */; };
+		BC299514197AF3F400B160FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC299513197AF3F400B160FE /* Images.xcassets */; };
+		BC29951B197AF3F400B160FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC29951A197AF3F400B160FE /* XCTest.framework */; };
+		BC29951C197AF3F400B160FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2994FB197AF3F400B160FE /* Cocoa.framework */; };
+		BC299524197AF3F400B160FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC299522197AF3F400B160FE /* InfoPlist.strings */; };
+		BC299526197AF3F400B160FE /* TrakcMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC299525197AF3F400B160FE /* TrakcMixTests.m */; };
+		BC299531197B027400B160FE /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = BC299530197B027400B160FE /* Track.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC29951D197AF3F400B160FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2994F0197AF3F400B160FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2994F7197AF3F400B160FE;
+			remoteInfo = TrakcMix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2994F8197AF3F400B160FE /* TrakcMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrakcMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2994FB197AF3F400B160FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC2994FE197AF3F400B160FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC2994FF197AF3F400B160FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC299500197AF3F400B160FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC299503197AF3F400B160FE /* TrakcMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrakcMix-Info.plist"; sourceTree = "<group>"; };
+		BC299505197AF3F400B160FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC299507197AF3F400B160FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC299509197AF3F400B160FE /* TrakcMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrakcMix-Prefix.pch"; sourceTree = "<group>"; };
+		BC29950B197AF3F400B160FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC29950D197AF3F400B160FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC29950E197AF3F400B160FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC299511197AF3F400B160FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC299513197AF3F400B160FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC299519197AF3F400B160FE /* TrakcMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrakcMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC29951A197AF3F400B160FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC299521197AF3F400B160FE /* TrakcMixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrakcMixTests-Info.plist"; sourceTree = "<group>"; };
+		BC299523197AF3F400B160FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC299525197AF3F400B160FE /* TrakcMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrakcMixTests.m; sourceTree = "<group>"; };
+		BC29952F197B027400B160FE /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		BC299530197B027400B160FE /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2994F5197AF3F400B160FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2994FC197AF3F400B160FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC299516197AF3F400B160FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC29951C197AF3F400B160FE /* Cocoa.framework in Frameworks */,
+				BC29951B197AF3F400B160FE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2994EF197AF3F400B160FE = {
+			isa = PBXGroup;
+			children = (
+				BC29952F197B027400B160FE /* Track.h */,
+				BC299530197B027400B160FE /* Track.m */,
+				BC299501197AF3F400B160FE /* TrakcMix */,
+				BC29951F197AF3F400B160FE /* TrakcMixTests */,
+				BC2994FA197AF3F400B160FE /* Frameworks */,
+				BC2994F9197AF3F400B160FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2994F9197AF3F400B160FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2994F8197AF3F400B160FE /* TrakcMix.app */,
+				BC299519197AF3F400B160FE /* TrakcMixTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2994FA197AF3F400B160FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2994FB197AF3F400B160FE /* Cocoa.framework */,
+				BC29951A197AF3F400B160FE /* XCTest.framework */,
+				BC2994FD197AF3F400B160FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2994FD197AF3F400B160FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2994FE197AF3F400B160FE /* AppKit.framework */,
+				BC2994FF197AF3F400B160FE /* CoreData.framework */,
+				BC299500197AF3F400B160FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC299501197AF3F400B160FE /* TrakcMix */ = {
+			isa = PBXGroup;
+			children = (
+				BC29950D197AF3F400B160FE /* AppDelegate.h */,
+				BC29950E197AF3F400B160FE /* AppDelegate.m */,
+				BC299510197AF3F400B160FE /* MainMenu.xib */,
+				BC299513197AF3F400B160FE /* Images.xcassets */,
+				BC299502197AF3F400B160FE /* Supporting Files */,
+			);
+			path = TrakcMix;
+			sourceTree = "<group>";
+		};
+		BC299502197AF3F400B160FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC299503197AF3F400B160FE /* TrakcMix-Info.plist */,
+				BC299504197AF3F400B160FE /* InfoPlist.strings */,
+				BC299507197AF3F400B160FE /* main.m */,
+				BC299509197AF3F400B160FE /* TrakcMix-Prefix.pch */,
+				BC29950A197AF3F400B160FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC29951F197AF3F400B160FE /* TrakcMixTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC299525197AF3F400B160FE /* TrakcMixTests.m */,
+				BC299520197AF3F400B160FE /* Supporting Files */,
+			);
+			path = TrakcMixTests;
+			sourceTree = "<group>";
+		};
+		BC299520197AF3F400B160FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC299521197AF3F400B160FE /* TrakcMixTests-Info.plist */,
+				BC299522197AF3F400B160FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2994F7197AF3F400B160FE /* TrakcMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC299529197AF3F400B160FE /* Build configuration list for PBXNativeTarget "TrakcMix" */;
+			buildPhases = (
+				BC2994F4197AF3F400B160FE /* Sources */,
+				BC2994F5197AF3F400B160FE /* Frameworks */,
+				BC2994F6197AF3F400B160FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrakcMix;
+			productName = TrakcMix;
+			productReference = BC2994F8197AF3F400B160FE /* TrakcMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC299518197AF3F400B160FE /* TrakcMixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC29952C197AF3F400B160FE /* Build configuration list for PBXNativeTarget "TrakcMixTests" */;
+			buildPhases = (
+				BC299515197AF3F400B160FE /* Sources */,
+				BC299516197AF3F400B160FE /* Frameworks */,
+				BC299517197AF3F400B160FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC29951E197AF3F400B160FE /* PBXTargetDependency */,
+			);
+			name = TrakcMixTests;
+			productName = TrakcMixTests;
+			productReference = BC299519197AF3F400B160FE /* TrakcMixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2994F0197AF3F400B160FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.mycomp;
+				TargetAttributes = {
+					BC299518197AF3F400B160FE = {
+						TestTargetID = BC2994F7197AF3F400B160FE;
+					};
+				};
+			};
+			buildConfigurationList = BC2994F3197AF3F400B160FE /* Build configuration list for PBXProject "TrakcMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2994EF197AF3F400B160FE;
+			productRefGroup = BC2994F9197AF3F400B160FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2994F7197AF3F400B160FE /* TrakcMix */,
+				BC299518197AF3F400B160FE /* TrakcMixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2994F6197AF3F400B160FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC299506197AF3F400B160FE /* InfoPlist.strings in Resources */,
+				BC299514197AF3F400B160FE /* Images.xcassets in Resources */,
+				BC29950C197AF3F400B160FE /* Credits.rtf in Resources */,
+				BC299512197AF3F400B160FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC299517197AF3F400B160FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC299524197AF3F400B160FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2994F4197AF3F400B160FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC299531197B027400B160FE /* Track.m in Sources */,
+				BC29950F197AF3F400B160FE /* AppDelegate.m in Sources */,
+				BC299508197AF3F400B160FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC299515197AF3F400B160FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC299526197AF3F400B160FE /* TrakcMixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC29951E197AF3F400B160FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2994F7197AF3F400B160FE /* TrakcMix */;
+			targetProxy = BC29951D197AF3F400B160FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC299504197AF3F400B160FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC299505197AF3F400B160FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC29950A197AF3F400B160FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC29950B197AF3F400B160FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC299510197AF3F400B160FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC299511197AF3F400B160FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BC299522197AF3F400B160FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC299523197AF3F400B160FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC299527197AF3F400B160FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC299528197AF3F400B160FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC29952A197AF3F400B160FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrakcMix/TrakcMix-Prefix.pch";
+				INFOPLIST_FILE = "TrakcMix/TrakcMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC29952B197AF3F400B160FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrakcMix/TrakcMix-Prefix.pch";
+				INFOPLIST_FILE = "TrakcMix/TrakcMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC29952D197AF3F400B160FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrakcMix.app/Contents/MacOS/TrakcMix";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrakcMix/TrakcMix-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrakcMixTests/TrakcMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC29952E197AF3F400B160FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrakcMix.app/Contents/MacOS/TrakcMix";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrakcMix/TrakcMix-Prefix.pch";
+				INFOPLIST_FILE = "TrakcMixTests/TrakcMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2994F3197AF3F400B160FE /* Build configuration list for PBXProject "TrakcMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC299527197AF3F400B160FE /* Debug */,
+				BC299528197AF3F400B160FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC299529197AF3F400B160FE /* Build configuration list for PBXNativeTarget "TrakcMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC29952A197AF3F400B160FE /* Debug */,
+				BC29952B197AF3F400B160FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC29952C197AF3F400B160FE /* Build configuration list for PBXNativeTarget "TrakcMixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC29952D197AF3F400B160FE /* Debug */,
+				BC29952E197AF3F400B160FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2994F0197AF3F400B160FE /* Project object */;
+}
